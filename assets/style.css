@@ -1,73 +1,87 @@
-.primary-grid {
+.primary-constraints {
   display:grid;
-  grid-auto-flow: row;
-  grid-auto-rows: 95%;
-  grid-template-columns: 1px 95% 50% 95% 1px;
-  grid-gap: 5%;
+  grid-template-rows: 1vh 90vh 1vh;
+  grid-template-columns: 1vw 90vw 1vw;
+  grid-row-gap: 4vh;
+  grid-column-gap: 4vw;
+  /* min-width: 95vw;
+  min-height: 95vh;
+  max-width: 95vw;
+  max-height: 95vh; */
+  overflow: hidden;
+}
+
+.fill-the-space {
+  /* min-width: 90vw;
+  min-height: 90vh; */
+}
+
+.margin-top {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 1;
+}
+
+.margin-bottom {
+  grid-column: 1 / span 3;
+  grid-row: 3 / span 1;
 }
 
 .margin-left {
   grid-column: 1 / span 1;
-  grid-row: 1 / span 9;
+  grid-row: 1 / span 3;
 }
 
 .margin-right {
-  grid-column: 5 / span 1;
-  grid-row: 1 / span 9;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 3;
 }
 
-.intro-section {
+.primary-card {
   grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
-}
-
-.effort-section {
-  grid-column: 4 / span 1;
   grid-row: 2 / span 1;
 }
 
-
-.reflection-section {
-  grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
+.primary-card .carousel .carousel-inner .carousel-item {
+  padding: 2.5vh;
+  width: 100%;
+  height: 100%;
+  min-width: 90vw;
+  min-height: 85vh;
+  max-width: 90vw;
+  max-height: 85vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-clip: border-box;
 }
 
-
-.experience-section {
-  grid-column: 4 / span 1;
-  grid-row: 4 / span 1;
+.bg-intro {
+  background-image: url("https://picsum.photos/1400/800");
 }
 
-
-.learning-section {
-  grid-column: 2 / span 1;
-  grid-row: 5 / span 1;
+.bg-portfolio {
+  background-image: url("https://picsum.photos/1400/800");
 }
 
-
-.exposure-section {
-  grid-column: 4 / span 1;
-  grid-row: 6 / span 1;
+.bg-writing {
+  background-image: url("https://picsum.photos/1400/800");
 }
 
-
-.passion-section {
-  grid-column: 2 / span 1;
-  grid-row: 7 / span 1;
+.bg-experience {
+  background-image: url("https://picsum.photos/1400/800");
 }
 
-
-.faq-section {
-  grid-column: 4 / span 1;
-  grid-row: 8 / span 1;
+.bg-learning {
+  background-image: url("https://picsum.photos/1400/800");
 }
 
+.bg-exposure {
+  background-image: url("https://picsum.photos/1400/800");
+}
 
-.contact-section {
-  grid-column: 2 / span 3;
-  grid-row: 9 / span 1;
-  margin-left:35%;
-  margin-right:35%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.bg-passion {
+  background-image: url("https://picsum.photos/1400/800");
+}
+
+.bg-faq {
+  background-image: url("https://picsum.photos/1400/800");
 }
