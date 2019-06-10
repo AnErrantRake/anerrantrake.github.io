@@ -36,11 +36,6 @@
   grid-row: 2 / span 1;
 }
 
-.primary-card > .carousel > .carousel-control-prev,
-.primary-card > .carousel > .carousel-control-next {
-  width: 3%;
-}
-
 .primary-card > .carousel > .carousel-inner > .carousel-item {
   padding: 2.5vh;
   width: 100%;
@@ -52,6 +47,15 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-clip: border-box;
+}
+
+.primary-card > .carousel > .carousel-indicators > li {
+  vertical-align: 0;
+  text-align: center;
+  text-indent: 0;
+  border-radius: 50%;
+  width: 3.5vh;
+  height:3.5vh;
 }
 
 .secondary-card {
