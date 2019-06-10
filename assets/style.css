@@ -4,16 +4,11 @@
   grid-template-columns: 1vw 90vw 1vw;
   grid-row-gap: 4vh;
   grid-column-gap: 4vw;
-  /* min-width: 95vw;
+  min-width: 95vw;
   min-height: 95vh;
   max-width: 95vw;
-  max-height: 95vh; */
+  max-height: 95vh;
   overflow: hidden;
-}
-
-.fill-the-space {
-  /* min-width: 90vw;
-  min-height: 90vh; */
 }
 
 .margin-top {
@@ -41,7 +36,12 @@
   grid-row: 2 / span 1;
 }
 
-.primary-card .carousel .carousel-inner .carousel-item {
+.primary-card > .carousel > .carousel-control-prev,
+.primary-card > .carousel > .carousel-control-next {
+  width: 3%;
+}
+
+.primary-card > .carousel > .carousel-inner > .carousel-item {
   padding: 2.5vh;
   width: 100%;
   height: 100%;
@@ -54,8 +54,36 @@
   background-clip: border-box;
 }
 
+.secondary-card {
+  background-color: slategray;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.info-subsection{
+  background-color: lightgray;
+  color: black;
+  /* background-clip: content-box; */
+  padding: 1vh;
+  border-radius: 15%;
+}
+
+.secondary-card > .card-img-top > img {
+  max-width: 100%;
+}
+
+.secondary-card:hover {
+  background-color: blue;
+}
+
 .bg-intro {
-  background-image: url("https://picsum.photos/1400/800");
+  background-color: slategray;
+  /* background-image: url("https://picsum.photos/1400/800"); */
 }
 
 .bg-portfolio {
