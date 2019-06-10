@@ -1,3 +1,7 @@
+.content-modal {
+  
+}
+
 .primary-constraints {
   display:grid;
   grid-template-rows: 1vh 90vh 1vh;
