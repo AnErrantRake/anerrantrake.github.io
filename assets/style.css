@@ -89,6 +89,48 @@
   background-color: blue;
 }
 
+.info-constraints {
+  display:grid;
+  grid-template-rows: 40vh;
+  grid-template-columns: repeat(4, 20vw);
+  grid-row-gap: 0vh;
+  grid-column-gap: 0vw;
+  min-width: 80vw;
+  min-height: 80vh;
+  max-width: 80vw;
+  max-height: 80vh;
+  overflow: hidden;
+}
+
+.secondary-info {
+  background-color: brown;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  min-width: 10vw;
+  max-width: 10vw;
+  min-height: 10vw;
+  max-height: 10vw;
+  margin: auto;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.secondary-info > p {
+  visibility: hidden;
+  vertical-align: middle;
+  color: black;
+}
+
+.secondary-info:hover {
+  background-color: #fff;
+  background-image: unset;
+}
+
+.secondary-info:hover > p {
+  visibility: visible;
+}
+
 .faq-constraints {
   display:grid;
   grid-template-rows: repeat(2, 40vh);
@@ -136,8 +178,20 @@
   background-image: url("https://picsum.photos/1400/800");
 }
 
-.bg-exposure {
-  background-image: url("https://picsum.photos/1400/800");
+.bg-umn {
+  background-image: url('logos/uofmn.png');
+}
+
+.bg-mssa {
+  background-image: url('logos/stmartins.png');
+}
+
+.bg-comptia {
+  background-image: url('logos/comptia.png');
+}
+
+.bg-dliflc {
+  background-image: url('logos/dliflc.png');
 }
 
 .bg-passion {

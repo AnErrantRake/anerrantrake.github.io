@@ -71,28 +71,32 @@
         <div class="primary-card card card-body bg-secondary border-white p-0">
           <div id="primaryCarousel" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
             <ol class="carousel-indicators">
+              <!-- intro -->
               <li data-target="#primaryCarousel" data-slide-to="0">
                 <i class="fas fa-universal-access"></i>
               </li>
+              <!-- portfolio -->
               <li data-target="#primaryCarousel" data-slide-to="1">
                 <i class="fas fa-code"></i>
               </li>
+              <!-- writing -->
               <li data-target="#primaryCarousel" data-slide-to="2">
                 <i class="fas fa-pen-alt"></i>
               </li>
+              <!-- experience -->
               <li data-target="#primaryCarousel" data-slide-to="3">
                 <i class="fas fa-business-time"></i>
               </li>
-              <li data-target="#primaryCarousel" data-slide-to="4">
+              <!-- education -->
+              <li data-target="#primaryCarousel" data-slide-to="4" class="active">
                 <i class="fas fa-graduation-cap"></i>
               </li>
+              <!-- passion -->
               <li data-target="#primaryCarousel" data-slide-to="5">
-                <i class="far fa-list-alt"></i>
-              </li>
-              <li data-target="#primaryCarousel" data-slide-to="6">
                 <i class="fas fa-walking"></i>
               </li>
-              <li data-target="#primaryCarousel" data-slide-to="7" class="active">
+              <!-- faq -->
+              <li data-target="#primaryCarousel" data-slide-to="6">
                 <i class="far fa-question-circle"></i>
               </li>
             </ol>
@@ -249,25 +253,30 @@
                   corporis repudiandae, molestias, laborum similique!</p>
               </div>
               <!-- learning -->
-              <div class="carousel-item text-white p-3 bg-learning">
-                <p>Earum porro et asperiores, dolor, quae aspernatur possimus dolorum officia debitis recusandae
-                  architecto doloremque perferendis maxime ab aperiam cupiditate dolores atque sunt facilis.
-                  Blanditiis,
-                  repudiandae facere hic quos deleniti assumenda.</p>
-              </div>
-              <!-- exposure -->
-              <div class="carousel-item text-white p-3 bg-exposure">
-                <p>Aliquid a similique minima debitis officia, explicabo aspernatur consectetur cupiditate? Quasi
-                  necessitatibus ullam eveniet similique quia odit accusantium odio accusamus excepturi voluptates?
-                  Corrupti numquam dolore expedita, facere dolor nobis voluptate.</p>
+              <div class="carousel-item active text-white p-3 bg-learning">
+                <div class="container info-constraints justify-content-center align-items-center">
+                  <div class="col-3 secondary-info p-1 bg-umn">
+                    <br>
+                    <p>University of Minnesota</p>
+                  </div>
+                  <div class="col-3 secondary-info p-1 bg-mssa">
+                    <br>
+                    <p>MSSA</p>
+                  </div>
+                  <div class="col-3 secondary-info p-1 bg-comptia">
+                    <br>
+                    <p>COMPTIA</p>
+                  </div>
+                  <div class="col-3 secondary-info p-1 bg-dliflc">
+                    <br>
+                    <p>DLIFLC</p>
+                  </div>
+                </div>
               </div>
               <!-- passion -->
               <div class="carousel-item text-white p-3 bg-passion">
                 <div class="container">
                   <div class="row align-items-start py-3">
-                    <div class="col-12 text-center">
-                      <h1>Portfolio</h1>
-                    </div>
                     <div class="col-4">
                       <div class="card secondary-card">
                         <div class="card-img-top">
@@ -305,7 +314,7 @@
                 </div>
               </div>
               <!-- faq -->
-              <div class="carousel-item active text-white p-3 bg-faq">
+              <div class="carousel-item text-white p-3 bg-faq">
                 <div class="container faq-constraints justify-content-center align-items-center">
                   <div class="faq-content">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, suscipit possimus cupiditate
@@ -356,6 +365,7 @@
     </div>
     <script src="lib/js/jquery-3.4.1.js"></script>
     <script src="lib/js/bootstrap.bundle.js"></script>
+    <script src="lib/js/pixi.min.js"></script>
     <script src="app/app.js"></script>
 </body>
 
