@@ -20,8 +20,7 @@ main {
 
 main > section {
   margin: auto;
-  padding-left: 3vh;
-  padding-right: 3vh;
+  padding: 10vh;
   height: 100vh;
   min-height: 100vh;
 }
@@ -36,8 +35,4 @@ main > section:nth-of-type(even) {
 
 main > section > h2 {
   padding-top: var(--navbar-height);
-}
-
-.brand-logo {
-  height: calc(var(--navbar-height) / 2);
 }

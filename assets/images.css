@@ -1,0 +1,92 @@
+.brand-logo {
+  height: calc(var(--navbar-height) / 2);
+}
+
+.bg-agri_valley{
+  background-image: url("./backgrounds/agri_valley.jpg");
+}
+
+.bg-basilica{
+  background-image: url("./backgrounds/basilica.jpg");
+}
+
+.bg-building_vines{
+  background-image: url("./backgrounds/building_vines.jpg");
+}
+
+.bg-clouds_trees{
+  background-image: url("./backgrounds/clouds_trees.jpg");
+}
+.bg-electric_icewater{
+  background-image: url("./backgrounds/electric_icewater.jpg");
+}
+.bg-frozen_river{
+  background-image: url("./backgrounds/frozen_river.jpg");
+}
+.bg-granite_hill{
+  background-image: url("./backgrounds/granite_hill.jpg");
+}
+.bg-granite_water{
+  background-image: url("./backgrounds/granite_water.jpg");
+}
+.bg-lake_dusk{
+  background-image: url("./backgrounds/lake_dusk.jpg");
+}
+.bg-lake_moss{
+  background-image: url("./backgrounds/lake_moss.jpg");
+}
+.bg-lake_night{
+  background-image: url("./backgrounds/lake_night.jpg");
+}
+.bg-lake_reeds{
+  background-image: url("./backgrounds/lake_reeds.jpg");
+}
+.bg-lake_roughwater{
+  background-image: url("./backgrounds/lake_roughwater.jpg");
+}
+.bg-lake_stillwater_fall{
+  background-image: url("./backgrounds/lake_stillwater_fall.jpg");
+}
+.bg-lake_sunrise{
+  background-image: url("./backgrounds/lake_sunrise.jpg");
+}
+.bg-midwest_sunrise{
+  background-image: url("./backgrounds/midwest_sunrise.jpg");
+}
+.bg-mossy_hill{
+  background-image: url("./backgrounds/mossy_hill.jpg");
+}
+.bg-ocean_trees{
+  background-image: url("./backgrounds/ocean_trees.jpg");
+}
+.bg-river_bridge{
+  background-image: url("./backgrounds/river_bridge.jpg");
+}
+
+.bg-ruined_school{
+  background-image: url("./backgrounds/ruined_school.jpg");
+}
+
+.bg-skyline_dusk{
+  background-image: url("./backgrounds/skyline_dusk.jpg");
+}
+
+.bg-smoky_water{
+  background-image: url("./backgrounds/smoky_water.jpg");
+}
+
+.bg-snowy_field_suburbs{
+  background-image: url("./backgrounds/snowy_field_suburbs.jpg");
+}
+
+.bg-snowy_field_urban{
+  background-image: url("./backgrounds/snowy_field_urban.jpg");
+}
+
+.bg-snowy_street{
+  background-image: url("./backgrounds/snowy_street.jpg");
+}
+
+.bg-snowy_trees{
+  background-image: url("./backgrounds/snowy_trees.jpg");
+}
